@@ -4,8 +4,6 @@ import { View, Text } from 'react-native';
 import { GoogleSignin, statusCodes, GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import auth from '@react-native-firebase/auth';
 // import database from '@react-native-firebase/database';
-// import { ToastAndroid } from 'react-native';
-// import AsyncStorage from '@react-native-async-storage/async-storage';
 GoogleSignin.configure({
     webClientId:
         '517525829100-6714pbqes4jkup3hs95glet5n6hn9j0f.apps.googleusercontent.com',
